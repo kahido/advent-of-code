@@ -1,22 +1,8 @@
-# Simple C++ Project Template
+# Advent of Code puzzles
 
 ## About
 
-This is a C++ GitHub template for getting up and running projects with C++ quickly. It is based on originaly designed and published by leftcus [C++ Best Practices GitHub template](https://github.com/cpp-best-practices/gui_starter_template).
-
-By default (collectively known as `ENABLE_DEVELOPER_MODE`)
-
- * Address Sanitizer and Undefined Behavior Sanitizer enabled where possible
- * Warnings as errors
- * clang-tidy and cppcheck static analysis
-
-## Getting Started
-
-### Use the Github template
-
-First, click the green `Use this template` button near the top of this page. This will take you to Github's [Generate Repository](https://github.com/kahido/simple-project-structure/generate) page. Fill in a repository name and short description, and click 'Create repository from template'. This will allow you to create a new repository in your Github account, prepopulated with the contents of this project.
-
-After creating the project please wait until the cleanup workflow has finished setting up your project and commited the changes.
+Advent of Code is an Advent calendar of small programming puzzle and this is my solutions written in C++ as a skill training and fun.
 
 ## Build Instructions
 

@@ -20,13 +20,13 @@ set(ENABLE_DEVELOPER_MODE
 # Change this to false if you want to disable warnings_as_errors in developer mode
 set(OPT_WARNINGS_AS_ERRORS_DEVELOPER_DEFAULT TRUE)
 
-set(PROJECT_NAME "simple-project")
+set(PROJECT_NAME "advent-of-code")
 
 # Set the project name and language
 project(
   ${PROJECT_NAME}
   VERSION 0.0.1
-  DESCRIPTION ""
+  DESCRIPTION "Solutions to Advent of Code puzzles (C++)"
   LANGUAGES CXX)
 
 include(cmake/StandardProjectSettings.cmake)
@@ -65,8 +65,7 @@ if(ENABLE_PCH)
     INTERFACE
     <vector>
     <string>
-    <map>
-    <utility>)
+    <map>)
 endif()
 
 include_directories(include)

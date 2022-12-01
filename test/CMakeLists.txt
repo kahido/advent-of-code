@@ -1,1 +1,1 @@
-add_subdirectory(project)
+add_subdirectory(2022)
